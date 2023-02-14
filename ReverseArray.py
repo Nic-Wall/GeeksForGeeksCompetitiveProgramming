@@ -13,6 +13,7 @@ arr[0] = 1, arr[1] = 2, etc.
 but arr[-1] = 6
 
 Using this I reversed the array by referencing the negative of each index!
+This is O(n)
 """
 
 #Geeks for Geeks
@@ -25,6 +26,7 @@ arr[1:3] would display everything between index 1 and 3
 arr[3:] would display everything up to the third index
 arr[1:8:2] would display everything between index 1 and 3 in steps of 2
 So Geeks for Geeks simply used arr[::-1] to reverse the array from the default first to last position by incrementals of -1
+This is O
 """
 
 #Main function
